@@ -1,0 +1,153 @@
+
+.x-ux-form-hintedtextfield-delete {
+    width: 16px;
+    height: 16px;
+    background-image:url(../images/delete.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-left: 3px;
+}
+
+.x-ux-form-hintedtextfield-button-include {
+    float: none;
+    background-color: #339933;
+    height: 18px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.x-ux-form-hintedtextfield-button-exclude {
+    float: none;
+    background-color: #cc3333;
+    height: 18px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.x-ux-form-filterpanel {
+    background-color: green;
+    z-index: 20000;
+}
+.x-form-file-wrap {
+    position: relative;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file {
+	position: absolute;
+	right: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+    height: 22px;
+}
+.x-form-file-wrap .x-form-file-btn {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+.x-form-file-wrap .x-form-file-text {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: #777;
+}
+
+
+.au-hidden, .au-hidden *, *.au-hidden {
+	visibility: hidden;
+	width:1px;
+	height:1px;
+	display:block;
+	z-index:-99;
+	position:absolute;
+}
+
+td.x-grid3-td-progress-cell {
+    padding: 0;
+}
+
+td.x-grid3-td-progress-cell div.x-grid3-cell-inner {
+    padding: 0;
+    position: relative;
+    height: 21px;
+}
+
+.ux-progress-cell-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ux-progress-cell-background {
+    background: #E0E8F3;
+    white-space: nowrap;
+}
+.x-grid3-td-progress-cell .low {
+    background: #11aa11;
+}
+.x-grid3-td-progress-cell .medium {
+    background: #f1fa1a;
+}
+.x-grid3-td-progress-cell .high {
+    background: #ee1111;
+}
+
+.ux-progress-cell-foreground {
+    color: #000;
+    background-color: #9CBFEE;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.ux-progress-cell-inner-right {
+    text-align: right;
+}
+
+.ux-progress-cell-inner-center {
+    text-align: center;
+}
+
+.ux-progress-cell .ux-progress-cell-inner div {
+    padding: 3px 0 0 4px;
+}
+
+.ux-progress-cell-inner-right div {
+    padding: 3px 4px 0 0;
+    position: relative;
+}
+
+.ux-progress-cell-inner-center div {
+    padding: 3px 0 0 0;
+    position: relative;
+}
+
+.ux-progress-cell-inner-left div {
+    padding: 3px 0 0 4px;
+    position: relative;
+}
+
+.x-grid3-row-locked .x-grid3-row-checker {
+    filter: alpha(opacity = 60);
+    opacity: 0;
+}
+
+.x-grid3-row-unlocked .x-grid3-row-checker {
+}
+
+.exclude-filter {
+    background: #800000;
+
+}

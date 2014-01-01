@@ -1,0 +1,6 @@
+extends tc-layout
+block append head
+    script(src='lib/tracking.js')
+    script(type='text/javascript')
+        cdnLocation = '#{cdnLocation}'
+    script(src='web/app.js')

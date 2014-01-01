@@ -1,0 +1,7 @@
+{
+	"url": "http://alldirecttravel.zapto.org",
+	"port": 4000,
+	"cdn": "",
+	"debug": true,
+	"heroku": false
+}

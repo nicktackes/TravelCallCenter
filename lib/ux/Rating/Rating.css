@@ -1,0 +1,120 @@
+.starOn {
+	background-image: url(images/starOn.png);
+	margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.starOnGrid{
+	background-image: url(images/starOn.png);
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+.starInitial {
+	background-image: url(images/starInitial.png);
+	margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+}
+
+.starOff {
+	background-image: url(images/starOff.png);
+	margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.starHiddenClearMode {
+	clear: left;
+}
+
+.starReset {
+	background-image: url(images/starReset.png);
+	margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+}
+
+.ratingDisplayText {
+	margin: 2px 2px 0px 2px;
+	padding: 0px 0px 0px 2px;
+	display: inline-block;
+	float: left;
+}
+
+.usefulDisplayText {
+	/*margin: 2px 2px 0px 2px;
+	padding: 0px 0px 0px 2px;*/
+	display: inline-block;
+	float: left;
+}
+
+.usefulNo {
+/*	background-image: url(usefulNo.png);*/
+	/*margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;*/
+	cursor: hand;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+
+.usefulNoSelected {
+/*	background-image: url(usefulNoSelected.png);*/
+font-weight: bold;
+	/*margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;*/
+	color: #f6ab00;
+	cursor: hand;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+
+.usefulYes {
+/*	background-image: url(usefulYes.png);*/
+	/*margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;*/
+	cursor: hand;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+
+.usefulYesSelected {
+/*	background-image: url(usefulYesSelected.png);*/
+font-weight: bold;
+color: #f6ab00;
+cursor: hand;
+	cursor: pointer;
+	/*margin: 2px 0px 0px 0px;
+	padding: 2px 2px;
+	width: 16px;
+	height: 16px;*/
+	display: inline-block;
+	float: left;
+}

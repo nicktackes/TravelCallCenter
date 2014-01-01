@@ -1,0 +1,47 @@
+{
+    "name": "travelcall",
+    "version": "0.0.1",
+    "private": true,
+    "directories": {
+        "public": "./public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nicktackes/TravelCallCenter"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "dependencies": {
+        "underscore":">=1.5.2",
+        "express": ">=2.5.1",
+        "mongodb": ">=1.2.9",
+        "connect": ">=2.7.2",
+        "stylus": ">=0.32.0",
+        "jade": ">=0.18.0",
+        "node-uuid": ">=1.4.0",
+        "datejs": ">=0.0.2",
+        "connect-timeout": ">=0.0.1",
+        "nodemailer": ">=0.3.22",
+        "mu2": ">=0.5.16",
+        "async": ">=0.1.22",
+        "socket.io": ">=0.9.11",
+        "request": ">=2.9.203",
+        "connect-redis": ">=1.0.6",
+        "glossary": ">=0.1.1",
+        "moment": ">=2.0.0",
+        "ua-parser": ">=0.3.3",
+        "mocha": "*",
+        "should": "*",
+        "superagent": "*",
+        "supertest": "*",
+        "socket.io-client": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "superagent": "*",
+        "supertest": "*"
+    }
+}

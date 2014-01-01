@@ -1,0 +1,5 @@
+extends tc-layout-debug
+block append head
+    script(type='text/javascript').
+        cdnLocation = '#{cdnLocation}'
+    script(src='web/app.js')

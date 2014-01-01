@@ -1,0 +1,17 @@
+{
+    "provider":{
+        "host":"smtp.sendgrid.net",
+        "port":"587",
+        "auth":{
+            "user":"mobileintellect",
+            "pass":"SteamR0ller"
+        },
+        "domain":"mobileintellect.co"
+    },
+    "accounts":{
+        "sales":"MolecularMatch <admin@molecularmatch.com>",
+        "support":"MolecularMatch Admin <admin@molecularmatch.com>",
+        "incident":"MolecularMatch Admin <ntackes@gmail.com>"
+    },
+    "developmentMode":false
+}

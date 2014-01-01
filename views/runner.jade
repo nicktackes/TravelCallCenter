@@ -1,0 +1,26 @@
+extends layout
+block append head
+    title Glu Spec Runner for Molecular Match
+    link(href='/lib/jasmine/jasmine.css', rel='stylesheet')
+    script(src='/lib/jasmine/jasmine.js')
+    script(src='/lib/jasmine/jasmine-html.js')
+
+    script(type='text/javascript')
+        cdnLocation = '#{cdnLocation}'
+
+    script(src='/lib/glu/glu-test.js')
+
+    script(src='web/locale/locale_en.js')
+
+    script(src='web/models/Call.js')
+    script(src='web/models/User.js')
+
+    script(src='web/viewmodels/main.js')
+    script(src='web/mixins/authentication.js')
+    script(src='web/mixins/error.js')
+
+    script(src='web/spec/spec.js')
+    script(src='web/spec/backend.js')
+    
+    script(src='/lib/jasmine/runner.js')
+
